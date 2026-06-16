@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+
+<body>
+
+<form action="#" method="post">
+
+<h2>College Admission Form</h2>
+
+<hr>
+
+<fieldset>
+<legend>Student Personal Information</legend>
+
+<label for="student_name">Student Name:</label>
+<input type="text" id="student_name" name="student_name" required><br><br>
+
+<label for="parent_name">Parent Name:</label>
+<input type="text" id="parent_name" name="parent_name" required><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="mobile">Mobile Number:</label>
+<input type="tel" id="mobile" name="mobile" required><br><br>
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob" required><br><br>
+
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="Male"> Male
+<input type="radio" id="female" name="gender" value="Female"> Female
+<br><br>
+
+<label>Category:</label>
+<input type="radio" id="open" name="category" value="Open"> Open
+<input type="radio" id="reserved" name="category" value="Reserved"> Reserved
+
+</fieldset>
+
+<br>
+
+
+<hr>
+
+<fieldset>
+
+<legend>Academic Details</legend>
+
+<label for="ssc">SSC Percentage:</label>
+<input type="number" id="ssc" name="ssc" min="0" max="100" required><br><br>
+
+
+<label for="hsc">HSC Percentage:</label>
+<input type="number" id="hsc" name="hsc" min="0" max="100" required><br><br>
+
+
+<label for="course">Course Name:</label>
+<input type="text" id="course" name="course" required><br><br>
+
+
+<label for="college">Previous College:</label>
+<input type="text" id="college" name="college" required><br><br>
+
+
+</fieldset>
+
+<br>
+
+
+<hr>
+
+<fieldset>
+
+<legend>Address Information</legend>
+
+<label for="address">Full Address:</label>
+<textarea id="address" name="address" rows="4" cols="50" required></textarea>
+<br><br>
+
+
+<label for="city">City:</label>
+<input type="text" id="city" name="city" required><br><br>
+
+
+<label for="state">State:</label>
+<input type="text" id="state" name="state" required><br><br>
+
+
+<label for="pincode">Pin Code:</label>
+<input type="number" id="pincode" name="pincode" required><br><br>
+
+
+<label for="country">Country:</label>
+<input type="text" id="country" name="country" required><br><br>
+
+
+</fieldset>
+
+<br>
+
+
+<hr>
+
+<fieldset>
+
+<legend>Upload Documents</legend>
+
+
+<label for="photo">Upload Photo:</label>
+<input type="file" id="photo" name="photo" accept="image/*" required>
+<br><br>
+
+
+<label for="marksheet">Upload Marksheet:</label>
+<input type="file" id="marksheet" name="marksheet" accept=".pdf,.jpg,.png" required>
+<br><br>
+
+
+<label for="certificate">Upload Certificate:</label>
+<input type="file" id="certificate" name="certificate" accept=".pdf,.jpg,.png" required>
+
+</fieldset>
+
+<br>
+
+
+<hr>
+
+<fieldset>
+
+<legend>Declaration</legend>
+
+<input type="checkbox" id="declaration" name="declaration" required>
+
+I declare that all information given above is correct and true.
+
+<br><br>
+
+</fieldset>
+
+<br>
+
+
+<input type="submit" value="Submit Form">
+
+<input type="reset" value="Reset Form">
+
+
+</form>
+
+</body>
+</html>
